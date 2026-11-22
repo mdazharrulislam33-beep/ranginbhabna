@@ -1,0 +1,6 @@
+{
+  "name": "রঙিন ভাবনা — বাংলা গল্পের অনলাইন ম্যাগাজিন",
+  "description": "মনের কথাগুলো রঙে রঙে সাজাই... ভালোবাসা, কষ্ট, মজার, জীবন ও ইসলামিক অনুপ্রেরণামূলক বাংলা গল্পের অনলাইন ম্যাগাজিন।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Hind Siliguri', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Tiro Bangla', 'Hind Siliguri', Georgia, serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Hind Siliguri', system-ui, sans-serif;
+    color: #241726;
+    background-color: #FCF9FA;
+  }
+
+  body {
+    min-height: 100vh;
+    background-color: #FCF9FA;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3 {
+    text-wrap: balance;
+  }
+}
+
+.font-literary {
+  font-family: 'Tiro Bangla', 'Hind Siliguri', serif;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.story-prose p:first-of-type::first-letter {
+  font-family: 'Tiro Bangla', serif;
+  font-size: 3.1rem;
+  line-height: 0.9;
+  font-weight: 400;
+  float: left;
+  margin-right: 0.65rem;
+  margin-top: 0.25rem;
+  color: #9D174D;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
